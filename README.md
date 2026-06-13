@@ -5,7 +5,28 @@ This script automates the creation of the workspace, configures
 settings via the command line, and handles system signals gracefully.
 
 ## How to run it
-bash setup_project.sh
+
+1. Clone the repository:
+   git clone https://github.com/rayiecho/deploy_agent_rayiecho.git
+
+2. Enter the directory:
+   cd deploy_agent_rayiecho
+
+3. Make the script executable:
+   chmod +x setup_project.sh
+
+4. Run the script:
+   bash setup_project.sh
+
+5. Enter your project name when prompted (e.g. v1)
+
+6. Choose yes or no to update thresholds
+
+7. If yes, enter Warning threshold (default 75) and Failure threshold (default 50)
+
+8. Script will validate Python3 installation and complete setup
+
+9. To trigger the archive feature, press Ctrl+C at any prompt during execution
 
 ## How to trigger the archive feature
 While the script is running, press Ctrl+C to interrupt it.
