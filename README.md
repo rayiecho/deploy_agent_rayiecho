@@ -51,3 +51,6 @@ and deletes the original folder.
 ### 4. Environment Validation
 Checks if python3 is installed using python3 --version.
 Prints success message with version or warning if missing.
+
+## Video Walkthrough
+[Click here to watch the video explanation](https://drive.google.com/file/d/145EA-mqo-ZwmqgG7znR-Xkh30v-ZkzF9/view?usp=sharing)
